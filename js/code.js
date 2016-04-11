@@ -1,7 +1,7 @@
-//[commentName]
+//[GetLastMonthDay]
 	/*
 	[info]
-	
+	Gets last day of month
 	[/info]
 	*/
 function get_last_month_day(month,year){
@@ -14,7 +14,7 @@ function get_last_month_day(month,year){
 	return new Date(year,month,0).getDate();
 		
 }
-//[/commentName]
+//[/GetLastMonthDay]
 
 //[commentName]
 	/*
